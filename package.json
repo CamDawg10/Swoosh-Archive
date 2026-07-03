@@ -1,0 +1,12 @@
+{
+  "name": "swoosh-archive",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Fan-made Nike sneaker history site with a daily-updating release feed.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "update-feed": "node scripts/update-releases.js"
+  }
+}
