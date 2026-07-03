@@ -1,0 +1,213 @@
+{
+  "note": "Hand-written by Claude, based on well-documented sneaker history. No style codes are included for historical models, since original codes are hard to verify reliably — search below falls back to Nike.com's own search, which correctly indexes style codes and current listings. See README.md for how to add more entries.",
+  "shoes": [
+    { "id": "cortez", "name": "Nike Cortez", "aka": ["Cortez"], "year": 1972, "category": "Running", "tags": ["running","icon","70s"],
+      "summary": "One of Nike's first running shoes, designed with Bill Bowerman for marathoners, built around a foam-wedge midsole that was unusually cushioned for its time.",
+      "significance": "The Cortez helped establish Nike as a serious running brand in the early 1970s. Decades later it crossed into streetwear and film culture, becoming one of the few models to stay in continuous rotation for over 50 years." },
+
+    { "id": "waffle-trainer", "name": "Nike Waffle Trainer", "aka": ["Moon Shoe"], "year": 1974, "category": "Running", "tags": ["running","70s","design-history"],
+      "summary": "Grew out of Bill Bowerman's experiments pouring rubber into a waffle iron to create a lighter, higher-traction outsole for trail and road running.",
+      "significance": "The waffle outsole became one of Nike's signature technologies and a recurring design motif across decades of running shoes. Early hand-made 'Moon Shoe' prototypes are now among the most valuable sneaker collectibles in existence." },
+
+    { "id": "air-tailwind", "name": "Nike Air Tailwind", "aka": ["Tailwind"], "year": 1978, "category": "Running", "tags": ["running","air","70s"],
+      "summary": "The first shoe to use 'Nike Air' — engineer Frank Rudy's technique of encasing pressurized gas inside a polyurethane sole unit for cushioning.",
+      "significance": "Air cushioning went on to define Nike's product line for the next two decades, eventually spreading from running into basketball, training, and lifestyle models." },
+
+    { "id": "pegasus", "name": "Nike Air Pegasus", "aka": ["Pegasus"], "year": 1983, "category": "Running", "tags": ["running","training"],
+      "summary": "A do-everything training shoe built to balance cushioning and responsiveness for daily mileage rather than racing.",
+      "significance": "Pegasus has been continuously updated for over 40 years, making it one of the longest-running model lines in athletic footwear and a benchmark other running shoes are compared against." },
+
+    { "id": "blazer", "name": "Nike Blazer", "aka": ["Blazer"], "year": 1972, "category": "Basketball", "tags": ["basketball","lifestyle","70s"],
+      "summary": "One of Nike's earliest basketball shoes and one of the first models to carry the Swoosh, with a simple leather upper and cupsole construction.",
+      "significance": "Though it fell out of basketball use decades ago, the Blazer's plain silhouette made it a favorite in skate and streetwear circles, and it remains one of Nike's most reissued retros." },
+
+    { "id": "air-force-1", "name": "Nike Air Force 1", "aka": ["AF1"], "year": 1982, "category": "Basketball", "tags": ["basketball","icon","air"],
+      "summary": "Designed by Bruce Kilgore, the AF1 was the first basketball shoe built around Nike Air cushioning, with a chunky, supportive high-top build.",
+      "significance": "Discontinued within a few years, it returned in 1986 after strong retailer demand and has been in continuous production since — widely considered one of the best-selling sneakers of all time and a foundation of hip-hop and streetwear style." },
+
+    { "id": "air-jordan-1", "name": "Air Jordan 1", "aka": ["AJ1", "Jordan 1"], "year": 1985, "category": "Basketball", "tags": ["basketball","jordan","icon"],
+      "designer": "Peter Moore, with Bruce Kilgore",
+      "summary": "Nike's first signature shoe for a young Bulls rookie named Michael Jordan, built around a bold color-blocked high-top.",
+      "significance": "Its black-and-red 'Bred' colorway reportedly violated the NBA's uniform rules, and the resulting controversy only fueled the shoe's popularity. The AJ1 effectively created the modern athlete signature-shoe business and, decades later, the sneaker resale market." },
+
+    { "id": "dunk", "name": "Nike Dunk", "aka": ["Dunk", "Dunk Low", "Dunk High"], "year": 1985, "category": "Basketball", "tags": ["basketball","skate","lifestyle"],
+      "summary": "Originally released as a college-team basketball shoe with a low-profile build, sharing its sole with the Air Jordan 1.",
+      "significance": "The Dunk was later adopted by skateboarders (formalized in the Nike SB line) and has become one of Nike's most frequently reissued retros, cycling through hundreds of colorways since the 2000s revival." },
+
+    { "id": "air-jordan-3", "name": "Air Jordan 3", "aka": ["AJ3"], "year": 1988, "category": "Basketball", "tags": ["basketball","jordan","tinker-hatfield"],
+      "designer": "Tinker Hatfield",
+      "summary": "Tinker Hatfield's first Jordan design introduced visible Air cushioning in the heel and an elephant-print texture panel.",
+      "significance": "Reportedly designed under pressure to keep Michael Jordan from leaving Nike, the AJ3 is often credited with saving the Jordan line and set the template — a bold, distinct design per model — that the Jordan Brand still follows." },
+
+    { "id": "air-jordan-4", "name": "Air Jordan 4", "aka": ["AJ4"], "year": 1989, "category": "Basketball", "tags": ["basketball","jordan"],
+      "designer": "Tinker Hatfield",
+      "summary": "Introduced visible plastic wing eyelets and a more technical, mesh-heavy upper than earlier Jordans.",
+      "significance": "Its appearance in Spike Lee's 'Do the Right Thing' and later hip-hop culture cemented the AJ4 as one of the most referenced sneakers in film and music." },
+
+    { "id": "air-jordan-5", "name": "Air Jordan 5", "aka": ["AJ5"], "year": 1990, "category": "Basketball", "tags": ["basketball","jordan"],
+      "designer": "Tinker Hatfield",
+      "summary": "Drew visual inspiration from World War II fighter jets, with a shark-tooth midsole design and reflective tongue tabs.",
+      "significance": "One of the more overtly design-driven Jordans, it's remembered for translating an aggressive visual concept directly into a mass-market sneaker." },
+
+    { "id": "air-jordan-6", "name": "Air Jordan 6", "aka": ["AJ6"], "year": 1991, "category": "Basketball", "tags": ["basketball","jordan"],
+      "designer": "Tinker Hatfield",
+      "summary": "A lower-cut, lighter Jordan built for speed, with a visible heel spoiler and tongue pull tab shaped like a taillight.",
+      "significance": "This was the shoe Michael Jordan wore to win his first NBA championship in 1991, making it historically significant regardless of design details." },
+
+    { "id": "air-huarache", "name": "Nike Air Huarache", "aka": ["Huarache"], "year": 1991, "category": "Lifestyle", "tags": ["lifestyle","running","design-history"],
+      "designer": "Tinker Hatfield",
+      "summary": "Inspired by neoprene water-ski booties, it wrapped a snug internal sleeve with an external strap-and-cage structure instead of a traditional upper.",
+      "significance": "Hatfield described it as stripping a shoe down to its essential support elements — an idea that influenced Nike's minimalist and 'sock-fit' designs for years afterward." },
+
+    { "id": "air-jordan-11", "name": "Air Jordan 11", "aka": ["AJ11", "Concord"], "year": 1995, "category": "Basketball", "tags": ["basketball","jordan","icon"],
+      "designer": "Tinker Hatfield",
+      "summary": "Introduced a patent-leather mudguard and ballistic mesh upper — a dressier, more premium look than prior Jordans.",
+      "significance": "Worn during Jordan's 1996 championship run and famously in the film 'Space Jam,' the AJ11 is consistently ranked among the most popular sneakers ever released and still causes major retail lines on reissue." },
+
+    { "id": "air-jordan-12", "name": "Air Jordan 12", "aka": ["AJ12"], "year": 1996, "category": "Basketball", "tags": ["basketball","jordan"],
+      "summary": "Took design cues from a Japanese rising-sun fan motif, with a padded collar and layered upper.",
+      "significance": "Notable for the 'flu game,' where Jordan played through illness wearing the AJ12 in a pivotal 1997 Finals game, adding to the shoe's mythology." },
+
+    { "id": "air-max-1", "name": "Nike Air Max 1", "aka": ["Air Max 1", "AM1"], "year": 1987, "category": "Running", "tags": ["running","air","icon"],
+      "designer": "Tinker Hatfield",
+      "summary": "Hatfield, inspired by the exposed structural piping of the Pompidou Centre in Paris, cut a window into the midsole to reveal the Air unit for the first time.",
+      "significance": "Made visible cushioning a design language rather than just an engineering detail, launching the entire Air Max line and directly shaping how sneakers have been marketed ever since." },
+
+    { "id": "air-jordan-13", "name": "Air Jordan 13", "aka": ["AJ13"], "year": 1997, "category": "Basketball", "tags": ["basketball","jordan"],
+      "summary": "Designed with a panther in mind — a holographic paw-print outsole and a low-cut, athletic build.",
+      "significance": "Released during Jordan's second three-peat with the Bulls, tying it directly to one of basketball's most dominant runs." },
+
+    { "id": "air-max-95", "name": "Nike Air Max 95", "aka": ["Air Max 95", "AM95"], "year": 1995, "category": "Running", "tags": ["running","air"],
+      "designer": "Sergio Lozano",
+      "summary": "Took inspiration from human anatomy — layered gradient panels meant to evoke muscle structure, with visible Air units in both the heel and forefoot.",
+      "significance": "One of the first sneakers to develop a dedicated resale and collector culture in the UK before the internet-driven hype era, foreshadowing sneaker culture's later growth." },
+
+    { "id": "air-foamposite-one", "name": "Nike Air Foamposite One", "aka": ["Foamposite", "Foams"], "year": 1997, "category": "Basketball", "tags": ["basketball","design-history"],
+      "designer": "Eric Avar",
+      "summary": "Used an injection-molded polyurethane shell instead of a traditional cut-and-sew upper, creating a seamless, sculptural shape unlike anything on shelves.",
+      "significance": "Its unusual manufacturing process and bold look made it an instant collector favorite, and it's often cited as one of the most technically ambitious sneaker designs of the 1990s." },
+
+    { "id": "air-max-97", "name": "Nike Air Max 97", "aka": ["Air Max 97", "AM97"], "year": 1997, "category": "Running", "tags": ["running","air"],
+      "designer": "Christian Tresser",
+      "summary": "Inspired by Japanese bullet trains, with a full-length visible Air unit and rippling reflective side panels.",
+      "significance": "Became a global streetwear staple well beyond running, especially popular in European and Asian sneaker markets through the 2000s and 2010s." },
+
+    { "id": "gary-payton-glove", "name": "Nike Air Zoom Flight '98", "aka": ["The Glove"], "year": 1998, "category": "Basketball", "tags": ["basketball","signature"],
+      "summary": "A signature shoe for Seattle SuperSonics guard Gary Payton, nicknamed 'The Glove' for his defensive reputation.",
+      "significance": "A cult favorite among basketball sneaker collectors for its aggressive, late-90s performance-shoe styling, regularly brought back as a retro." },
+
+    { "id": "shox-r4", "name": "Nike Shox R4", "aka": ["Shox"], "year": 2000, "category": "Running", "tags": ["running","2000s","design-history"],
+      "summary": "Replaced traditional foam cushioning with four visible polyurethane columns in the heel, a technology Nike had researched for over a decade before release.",
+      "significance": "Became one of the defining visual signatures of early-2000s sneaker design, instantly recognizable and widely imitated." },
+
+    { "id": "air-presto", "name": "Nike Air Presto", "aka": ["Presto"], "year": 2000, "category": "Lifestyle", "tags": ["lifestyle","running"],
+      "designer": "Tobie Hatfield",
+      "summary": "Marketed as a 't-shirt for your feet' — a stretchy, minimal upper designed to fit like clothing rather than a traditional laced shoe.",
+      "significance": "Pushed Nike's comfort-first, sock-like construction ideas years before Flyknit, and became a favorite for its bold, saturated colorways." },
+
+    { "id": "sb-dunk-low", "name": "Nike SB Dunk Low", "aka": ["SB Dunk"], "year": 2002, "category": "Skate", "tags": ["skate","dunk","collab"],
+      "summary": "Adapted the 1985 Dunk silhouette for skateboarding, with added padding, grippier materials, and skate-specific tuning.",
+      "significance": "Became the backbone of Nike's skate program and one of the most collaboration-heavy sneaker lines in the industry, working with skate shops and artists worldwide." },
+
+    { "id": "free-run", "name": "Nike Free Run", "aka": ["Nike Free"], "year": 2004, "category": "Running", "tags": ["running","2000s"],
+      "summary": "Grew out of Nike research into the biomechanics of barefoot running, using a flexible, deeply siped outsole to mimic a natural foot-strike.",
+      "significance": "Sparked a broader industry conversation about minimalist and 'barefoot-style' running shoes in the mid-to-late 2000s." },
+
+    { "id": "kobe-line", "name": "Nike Zoom Kobe line", "aka": ["Kobe 4", "Zoom Kobe"], "year": 2008, "category": "Basketball", "tags": ["basketball","signature","kobe"],
+      "summary": "Kobe Bryant pushed his signature line toward low-top builds — a break from the bulky high-tops that had dominated basketball shoes for years.",
+      "significance": "Kobe's insistence on lower, lighter shoes for better speed and agility helped shift basketball footwear design industry-wide toward the low-top norm seen today." },
+
+    { "id": "lebron-line", "name": "Nike LeBron line", "aka": ["Air Zoom Generation", "LeBron"], "year": 2003, "category": "Basketball", "tags": ["basketball","signature","lebron"],
+      "summary": "LeBron James's debut signature shoe launched straight out of high school hype, built with heavier support for his size and playing style.",
+      "significance": "The LeBron line has run continuously for over two decades, tracking his evolution from a young, powerful scorer to a longevity-focused veteran through changing shoe technology." },
+
+    { "id": "kd-line", "name": "Nike Zoom KD line", "aka": ["KD"], "year": 2008, "category": "Basketball", "tags": ["basketball","signature"],
+      "summary": "Kevin Durant's signature line emphasized a low-to-the-ground, lightweight build suited to his perimeter-scoring game.",
+      "significance": "Became known for being relatively affordable compared to other star signature shoes, while still keeping pace with Nike's latest cushioning tech each year." },
+
+    { "id": "air-woven", "name": "Nike Air Woven", "aka": ["Woven"], "year": 2004, "category": "Lifestyle", "tags": ["lifestyle","design-history"],
+      "summary": "Used a hand-woven textile upper instead of cut-and-sew panels, giving it a basket-like texture unlike any prior Nike shoe.",
+      "significance": "An early example of Nike experimenting with entirely new upper-construction methods, a design thread that reappeared later in Flyknit." },
+
+    { "id": "flyknit-racer", "name": "Nike Flyknit Racer", "aka": ["Flyknit"], "year": 2012, "category": "Running", "tags": ["running","flyknit","icon"],
+      "summary": "Introduced Nike's knitting process, producing a nearly seamless, sock-like upper directly from knitted yarn with minimal cut-fabric waste.",
+      "significance": "Debuted ahead of the London Olympics and spread rapidly across running, training, and lifestyle lines — now one of Nike's most widely used upper technologies." },
+
+    { "id": "roshe-run", "name": "Nike Roshe Run", "aka": ["Roshe"], "year": 2012, "category": "Lifestyle", "tags": ["lifestyle","minimal"],
+      "summary": "A deliberately stripped-down design — simple upper, EVA foam midsole, waffle-inspired outsole — aimed at being an affordable everyday shoe.",
+      "significance": "Became a runaway lifestyle hit in the early 2010s, often cited as an example of a minimal, low-cost design outperforming more technical models commercially." },
+
+    { "id": "vaporfly", "name": "Nike Zoom Vaporfly 4%", "aka": ["Vaporfly"], "year": 2017, "category": "Running", "tags": ["running","racing","modern"],
+      "summary": "Combined a curved, full-length carbon-fiber plate with a new lightweight foam (ZoomX) aimed at improving running economy.",
+      "significance": "Sparked the 'super shoe' era in distance running, contributed to a wave of marathon world records, and prompted World Athletics to introduce new rules on plate and sole design." },
+
+    { "id": "vapormax", "name": "Nike Air VaporMax", "aka": ["VaporMax"], "year": 2017, "category": "Lifestyle", "tags": ["lifestyle","running","air"],
+      "summary": "Removed the traditional foam midsole entirely, using a single exposed Air unit as the shoe's full cushioning system.",
+      "significance": "Represented three decades of Air technology condensed into its most visually stripped-down form since the original 1987 Air Max 1." },
+
+    { "id": "off-white-the-ten", "name": "Off-White x Nike \"The Ten\"", "aka": ["The Ten"], "year": 2017, "category": "Collaboration", "tags": ["collab","design-history","modern"],
+      "designer": "Virgil Abloh",
+      "summary": "Designer Virgil Abloh reworked ten Nike icons (including the Air Jordan 1 and Air Max 90) with exposed foam, zip ties, and deconstructed stitching meant to look unfinished.",
+      "significance": "Widely credited with reshaping how the sneaker and fashion industries think about collaborations, treating 'deconstruction' as a legitimate design language rather than a flaw." },
+
+    { "id": "sacai-ldwaffle", "name": "Sacai x Nike LDWaffle", "aka": ["LDWaffle"], "year": 2019, "category": "Collaboration", "tags": ["collab","modern"],
+      "designer": "Chitose Abe (Sacai)",
+      "summary": "Japanese designer Chitose Abe layered two Nike silhouettes — a Cortez-inspired upper over a chunky waffle-trainer sole — into a single hybrid shoe.",
+      "significance": "Popularized the 'double sneaker' hybrid design trend that other brands and collaborators widely imitated in the years after its release." },
+
+    { "id": "travis-scott-aj1", "name": "Travis Scott x Air Jordan 1 Low", "aka": ["Travis Scott 1s"], "year": 2019, "category": "Collaboration", "tags": ["collab","jordan","modern"],
+      "summary": "Musician Travis Scott's take on the Air Jordan 1 Low added an inverted Swoosh and a hidden second lace loop underneath a smiley-face tag.",
+      "significance": "Became one of the most resold sneakers of the late 2010s, illustrating how musician-led collaborations had come to rival athlete signature shoes in cultural and resale impact." },
+
+    { "id": "nike-mag", "name": "Nike Mag", "aka": ["Back to the Future shoe"], "year": 2016, "category": "Concept", "tags": ["concept","design-history"],
+      "summary": "A real, wearable version of the self-lacing shoe worn by Michael J. Fox in 'Back to the Future Part II,' with a motorized lacing system.",
+      "significance": "Limited pairs were auctioned for charity, and the project's lacing technology fed directly into Nike's later HyperAdapt and Adapt self-lacing product lines." },
+
+    { "id": "janoski", "name": "Nike SB Zoom Stefan Janoski", "aka": ["Janoski"], "year": 2009, "category": "Skate", "tags": ["skate","signature"],
+      "summary": "A signature skate shoe for pro skater Stefan Janoski, designed to look like a slim casual sneaker rather than a bulky skate shoe.",
+      "significance": "Its low-profile, vulcanized-sole look influenced a broader shift toward slimmer, less obviously 'technical' skate shoe designs." },
+
+    { "id": "air-max-plus", "name": "Nike Air Max Plus", "aka": ["TN", "Tuned Air"], "year": 1998, "category": "Running", "tags": ["running","air","2000s"],
+      "designer": "Sean McDowell",
+      "summary": "Introduced 'Tuned Air' — plastic ribs layered over the Air unit to add lateral support — wrapped in a wave-patterned upper inspired by palm trees.",
+      "significance": "Became especially iconic in European and Australian sneaker and rave culture, with a devoted following distinct from its original running-shoe purpose." },
+
+    { "id": "air-max-90", "name": "Nike Air Max 90", "aka": ["Air Max 90", "AM90"], "year": 1990, "category": "Running", "tags": ["running","air","icon"],
+      "designer": "Tinker Hatfield",
+      "summary": "Refined the Air Max 1's visible-Air concept with a larger window and a more angular, layered upper.",
+      "significance": "One of the most frequently retroed Air Max models, with new colorways released nearly every year since its debut." },
+
+    { "id": "air-max-720", "name": "Nike Air Max 720", "aka": ["Air Max 720"], "year": 2019, "category": "Lifestyle", "tags": ["lifestyle","air","modern"],
+      "summary": "Extended visible Air cushioning through the entire length of the sole, the tallest Air unit Nike had built at the time.",
+      "significance": "Pushed Air Max's visual cushioning concept, first introduced in 1987, to its most exaggerated form to date." },
+
+    { "id": "kyrie-line", "name": "Nike Kyrie line", "aka": ["Kyrie"], "year": 2014, "category": "Basketball", "tags": ["basketball","signature","modern"],
+      "summary": "Kyrie Irving's signature line emphasized quick cuts and ball-handling agility over the bulk of earlier guard signature shoes.",
+      "significance": "Known for playful, colorway-driven storytelling each release and for helping define the current generation of low-to-the-ground guard signature shoes." },
+
+    { "id": "tiffany-af1", "name": "Nike x Tiffany & Co. Air Force 1 Low", "aka": ["Tiffany AF1"], "year": 2021, "category": "Collaboration", "tags": ["collab","af1","modern"],
+      "summary": "A rare collaboration between Nike and the jeweler Tiffany & Co., reworking the Air Force 1 in Tiffany's signature blue with subtle jewelry-inspired detailing.",
+      "significance": "Notable for being one of the few times a heritage luxury house partnered directly with Nike, extending sneaker collaborations beyond streetwear and fashion labels into fine jewelry." },
+
+    { "id": "air-jordan-14", "name": "Air Jordan 14", "aka": ["AJ14"], "year": 1998, "category": "Basketball", "tags": ["basketball","jordan"],
+      "designer": "Tinker Hatfield",
+      "summary": "Styled after a Ferrari 550M that Michael Jordan owned, with an aggressive, aerodynamic silhouette.",
+      "significance": "Worn during Jordan's final championship run with the Bulls in 1998, including the game-winning shot in that year's Finals." },
+
+    { "id": "huarache-2k4-sue-bird", "name": "Nike Air Zoom Huarache 2K4", "aka": ["Huarache 2K4"], "year": 2004, "category": "Basketball", "tags": ["basketball","retro","womens"],
+      "summary": "A 2004 basketball Huarache later reissued in colorways honoring women's basketball figures such as Sue Bird.",
+      "significance": "Its retro reissues have become a way for Nike to spotlight WNBA and women's basketball history within a men's-basketball-era silhouette." },
+
+    { "id": "cortez-forrest-gump", "name": "Nike Cortez (film era)", "aka": ["Forrest Gump Cortez"], "year": 1994, "category": "Cultural moment", "tags": ["cortez","cultural-moment"],
+      "summary": "The 1994 film 'Forrest Gump' put the decades-old Cortez back in the cultural spotlight as the shoe its cross-country-running main character wore.",
+      "significance": "A clear example of how a single film moment can revive interest in a sneaker released over 20 years earlier, a pattern that's repeated throughout sneaker history." },
+
+    { "id": "adapt-bb", "name": "Nike Adapt BB", "aka": ["Adapt BB", "self-lacing basketball shoe"], "year": 2019, "category": "Concept", "tags": ["concept","modern","technology"],
+      "summary": "Brought motorized, app-controlled self-lacing — first previewed on the Nike Mag — into an actual performance basketball shoe.",
+      "significance": "Represented Nike's most direct attempt to turn a novelty concept shoe into mainstream performance footwear, blending sneaker technology with connected-app features." },
+
+    { "id": "waffle-one", "name": "Nike Waffle One", "aka": ["Waffle One"], "year": 2021, "category": "Lifestyle", "tags": ["lifestyle","waffle","modern"],
+      "summary": "A modern lifestyle shoe built specifically to celebrate and exaggerate the original 1970s waffle-sole design.",
+      "significance": "Shows how Nike continues to mine its own 1970s design history — the same waffle iron experiment from Bill Bowerman — for entirely new modern releases decades later." }
+  ]
+}

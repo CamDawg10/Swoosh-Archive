@@ -17,7 +17,8 @@
     <nav>
       <a href="#history">History</a>
       <a href="#models">Models</a>
-      <a href="#feed">Live Feed</a>
+      <a href="#lookup">Lookup</a>
+      <a href="#releases">Releases</a>
     </nav>
   </div>
 </header>
@@ -28,7 +29,7 @@
       <div>
         <p class="eyebrow">Est. research project — updated daily</p>
         <h1>THE<br><span>SWOOSH</span><br>ARCHIVE</h1>
-        <p class="lede">A running history of Nike sneakers — from a 1964 shoe-import startup to the labs behind Flyknit and Vaporfly — plus a feed of what's actually releasing this week.</p>
+        <p class="lede">A history of Nike sneakers — from a 1964 shoe-import startup to the labs behind Flyknit and Vaporfly — plus a searchable archive of what made each model matter, and direct links to Nike's own site for anything current.</p>
       </div>
       <div class="spec-box">
         <div><span class="k">FOUNDED</span><span>1964</span></div>
@@ -95,7 +96,7 @@
         <div class="t-year">1985</div>
         <div class="t-body">
           <h3>Air Jordan 1</h3>
-          <p>Nike signed a young Chicago Bulls rookie named Michael Jordan and built a signature shoe around him, designed by Peter Moore, Bruce Kilgore, and Tinker Hatfield's team. The NBA reportedly fined Jordan for wearing the black-and-red colorway, which only fueled its popularity.</p>
+          <p>Nike signed a young Chicago Bulls rookie named Michael Jordan and built a signature shoe around him, designed by Peter Moore with Bruce Kilgore. The NBA reportedly fined Jordan for wearing the black-and-red colorway, which only fueled its popularity.</p>
         </div>
       </div>
 
@@ -173,28 +174,55 @@
   </div>
 </section>
 
-<section id="feed">
+<section id="lookup">
   <div class="wrap">
     <div class="section-head">
-      <h2>Live Release Feed</h2>
-      <span class="section-num">03 — DAILY UPDATE</span>
+      <h2>Shoe Lookup</h2>
+      <span class="section-num">03 — SEARCH</span>
     </div>
-
-    <div class="feed-meta" style="margin-bottom:20px;">
-      <span class="dot-live"></span>
-      <span id="feed-updated">Loading feed status…</span>
-    </div>
-
-    <div class="feed-row header">
-      <span>Date</span><span>Release</span><span>Price</span><span style="text-align:right;">Style code</span>
-    </div>
-    <div class="feed-list" id="feed-list">
-      <div class="feed-empty">Loading releases…</div>
-    </div>
-
-    <p class="note-callout">
-      This list is generated automatically from <code>data/releases.json</code>, which a small script (<code>scripts/update-releases.js</code>) refreshes daily from public sneaker-release RSS feeds. See the README for how the automation is wired up.
+    <p style="max-width:620px;color:var(--ink-soft);margin-top:-8px;margin-bottom:28px;">
+      Search by model name for a hand-written history and significance write-up. For a specific colorway, SKU, price, or current availability, this hands off to Nike's own search — that's the accurate, always-current source for that kind of detail.
     </p>
+
+    <div class="lookup-box">
+      <input type="text" id="lookup-input" placeholder="Try “Air Jordan 1”, “Dunk”, or a style code like DZ5485-100…" autocomplete="off">
+    </div>
+
+    <div id="lookup-results" class="lookup-results">
+      <div class="feed-empty">Start typing a model name above.</div>
+    </div>
+
+    <div class="official-links" id="official-links">
+      <span class="official-links-label">Check official sources:</span>
+      <a id="link-nike-search" href="https://www.nike.com/w?q=" target="_blank" rel="noopener">Search Nike.com →</a>
+      <a href="https://www.nike.com/launch" target="_blank" rel="noopener">SNKRS launch calendar →</a>
+    </div>
+  </div>
+</section>
+
+<section id="releases">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Current &amp; Upcoming Releases</h2>
+      <span class="section-num">04 — OFFICIAL SOURCES</span>
+    </div>
+    <p style="max-width:640px;color:var(--ink-soft);margin-top:-8px;">
+      An earlier version of this page tried to auto-generate a release calendar from third-party sneaker blogs — some of that data turned out to be inaccurate. Rather than maintain a feed we can't fully vouch for, this links straight to Nike's own release pages, which are the only source guaranteed to be correct.
+    </p>
+    <div class="release-links">
+      <a class="release-link" href="https://www.nike.com/launch" target="_blank" rel="noopener">
+        <span class="rl-title">SNKRS Launch Calendar</span>
+        <span class="rl-desc">Nike's own upcoming and current release calendar, straight from the source.</span>
+      </a>
+      <a class="release-link" href="https://www.nike.com/launch/upcoming" target="_blank" rel="noopener">
+        <span class="rl-title">Upcoming Releases</span>
+        <span class="rl-desc">Everything scheduled but not yet available.</span>
+      </a>
+      <a class="release-link" href="https://www.nike.com/w?q=jordan" target="_blank" rel="noopener">
+        <span class="rl-title">Jordan Brand Search</span>
+        <span class="rl-desc">Latest Air Jordan and Jordan Brand listings on Nike.com.</span>
+      </a>
+    </div>
   </div>
 </section>
 

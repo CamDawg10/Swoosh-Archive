@@ -290,62 +290,120 @@ section:last-of-type { border-bottom: none; }
 }
 
 /* ===========================================================
-   Live feed — the daily-updating section
+   Shoe lookup — search box + result cards
    =========================================================== */
-.feed-meta {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--ink-soft);
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.lookup-box { margin-bottom: 20px; }
+.lookup-box input {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 17px;
+  padding: 16px 18px;
+  border: 2px solid var(--ink);
+  background: var(--paper-dim);
+  color: var(--ink);
+  outline: none;
 }
-.dot-live {
-  width: 8px; height: 8px; border-radius: 50%;
-  background: var(--court-green);
-  display: inline-block;
-  animation: pulse 2.2s infinite;
-}
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.35; }
-}
-.feed-list { display: flex; flex-direction: column; }
-.feed-row {
-  display: grid;
-  grid-template-columns: 110px 1fr 90px 130px;
-  gap: 18px;
-  align-items: center;
-  padding: 16px 4px;
-  border-bottom: 1px solid var(--tan-line);
-  font-size: 14px;
-}
-.feed-row.header {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--tan);
-  border-bottom: 2px solid var(--ink);
-}
-.feed-row .date { font-family: var(--font-mono); color: var(--ink-soft); }
-.feed-row .name { font-weight: 600; }
-.feed-row .name small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 12.5px; margin-top: 2px; }
-.feed-row .price { font-family: var(--font-mono); }
-.feed-row .code { font-family: var(--font-mono); font-size: 12px; color: var(--tan); text-align: right; }
+.lookup-box input:focus { border-color: var(--red); }
+.lookup-box input::placeholder { color: var(--tan); }
 
-@media (max-width: 700px) {
-  .feed-row { grid-template-columns: 1fr; gap: 4px; padding: 14px 4px; }
-  .feed-row.header { display: none; }
-  .feed-row .code { text-align: left; }
+.lookup-results { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 24px; }
+@media (max-width: 760px) { .lookup-results { grid-template-columns: 1fr; } }
+
+.shoe-card {
+  border: 1px solid var(--tan-line);
+  background: var(--paper-dim);
+  padding: 20px 22px;
 }
+.shoe-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+.shoe-card-head h3 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0;
+}
+.shoe-year { font-family: var(--font-mono); font-size: 13px; color: var(--red); }
+.shoe-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.shoe-cat {
+  font-family: var(--font-mono); font-size: 10.5px; text-transform: uppercase;
+  letter-spacing: 0.05em; color: var(--court-green); border: 1px solid var(--court-green);
+  padding: 2px 7px; border-radius: 3px;
+}
+.shoe-aka {
+  font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-soft);
+  border: 1px solid var(--tan-line); padding: 2px 7px; border-radius: 3px;
+}
+.shoe-designer { font-size: 12.5px; color: var(--ink-soft); margin: 0 0 10px; font-style: italic; }
+.shoe-summary { font-size: 14px; margin: 0 0 10px; }
+.shoe-significance { font-size: 13.5px; color: var(--ink-soft); margin: 0; }
+.shoe-significance strong { color: var(--ink); }
 
 .feed-empty, .feed-error {
   font-family: var(--font-mono);
   font-size: 13px;
   color: var(--ink-soft);
-  padding: 24px 0;
+  padding: 24px 4px;
+  grid-column: 1 / -1;
 }
+
+.official-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--tan-line);
+}
+.official-links-label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--tan);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.official-links a {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--ink);
+  border-bottom: 2px solid var(--red);
+  padding-bottom: 1px;
+}
+.official-links a:hover { color: var(--red); }
+
+/* ===========================================================
+   Official release links (static cards to Nike/SNKRS)
+   =========================================================== */
+.release-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 28px;
+}
+@media (max-width: 760px) { .release-links { grid-template-columns: 1fr; } }
+.release-link {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 2px solid var(--ink);
+  padding: 20px 22px;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--paper-dim);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.release-link:hover { transform: translateY(-2px); background: var(--paper); }
+.rl-title {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+}
+.rl-desc { font-size: 13px; color: var(--ink-soft); }
 
 /* ===========================================================
    Footer
